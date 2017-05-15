@@ -1,0 +1,22 @@
+name: openconf_api
+version: 0.1.0
+
+authors:
+  - irfan subas <irfan.subas@uzem.omu.edu.tr>
+
+targets:
+  openconf_api:
+    main: src/openconf_api.cr
+
+crystal: 0.21.1
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+  db:
+    github: crystal-lang/crystal-db
+  mysql:
+    github: crystal-lang/crystal-mysql
